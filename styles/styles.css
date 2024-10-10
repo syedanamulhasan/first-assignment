@@ -193,10 +193,15 @@
 /* support section ends */
 .footer{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     background-color: #F8F8F8;
-    margin-top: 40px;
+    margin-top: 50px;
     padding: 20px 0 20px 0;
+}
+.footer-elements{
+    width: 90%;
+    display: flex;
+    justify-content:space-between;
 }
 .footer p{
     font-size: 20px;
