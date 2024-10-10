@@ -37,7 +37,8 @@
     margin-bottom: 40px;
 }
 .web-development{
-    margin: 50px;
+    width: 90%;
+    margin: 50px auto;
     align-items: center;
     background-color: #FAFAFB;
     padding: 50px;
@@ -84,6 +85,10 @@
     margin: 30px 0 30px 0;
 }
 /* inspiration section starts */
+.inspiration{
+    width: 90%;
+    margin: 0 auto;
+}
 .inspiration-text{
     margin: 50px;
     align-items: center;
@@ -106,7 +111,8 @@
 
 /* target section starts */
 .target{
-    margin: 50px;
+    margin: 50px auto;
+    width: 90%;
 }
 .web-languages{
     display: flex;
@@ -142,11 +148,11 @@
 /* support section starts */
 .support{
     margin: 0 auto;
-    width:100%;
+    width:90%;
     height: fit-content;
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('assets/handshake.jpg');
     border-radius: 15px;
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
 }
