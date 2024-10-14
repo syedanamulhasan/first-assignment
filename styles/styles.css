@@ -102,8 +102,10 @@
     padding: 50px;
     border: 1px solid #555A64;
     border-radius: 15px;
+    width: 90%;
 }
 .inspiration-video iframe{
+    width: 100%;
     border: none;
     border-radius: 15px;
 }
